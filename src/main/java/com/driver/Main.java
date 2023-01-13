@@ -14,7 +14,7 @@ class A {
 
     public String meth() {
 
-        return null;
+        return "Invoking method from class A";
     }
 }
 
