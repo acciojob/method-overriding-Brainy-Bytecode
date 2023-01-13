@@ -9,3 +9,20 @@ public class Main {
     }
   
 }
+
+class A {
+
+    public String meth() {
+
+        return null;
+    }
+}
+
+
+class B extends A {
+
+    public String meth() {
+
+        return "Method is overridden in Extended class B";
+    }
+}
